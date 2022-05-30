@@ -173,7 +173,7 @@ ul#completed-tasks label {
   display: none;
 }
 
-ul .main__block_edit input[type=text] {
+ul .main__block_edit .main__field-task {
   display: inline-block;
   width: 224px;
 }
