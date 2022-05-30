@@ -35,7 +35,7 @@
 .main__task, .main__field-add {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .main__block_add {
@@ -43,16 +43,16 @@
 }
 
 .main__block {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
-.main__block-item, .main__title{
+.main__block-item, .main__title {
   list-style:none;
 }
 
 .main__field-task, .main__field-add, .main__checkbox-task, .main__button, .main__button_edit, .main__button_delete {
-  outline:none;
+  outline: none;
 }
 
 .main__button, .main__button_edit, .main__button_delete {
@@ -133,7 +133,7 @@
 }
 
 .main__field-task {
-  width: 226px
+  width: 226px;
 }
 
 .main__button-img {
@@ -148,20 +148,20 @@
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .main__field-task {
-  display:none
+  display: none;
 }
 
 ul .main__block_edit input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 ul .main__block_edit label {
-  display:none;
+  display: none;
 }
